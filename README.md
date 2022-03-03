@@ -14,5 +14,6 @@ kubectl cluster-info --context kind-cluster-ex-1
 kubectl cluster-info dump --context kind-cluster-ex-1
 # use nginx as load balancer and ingress via
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
-kubectl apply
+kubectl apply -f app1-dply-srv-ing.yaml
+kubectl apply -f app2-dply-srv-ing.yaml
 ```
