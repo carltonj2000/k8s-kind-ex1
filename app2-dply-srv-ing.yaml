@@ -27,7 +27,7 @@ metadata:
   name: app2-ingress
 spec:
   rules:
-    - host: teresa2x3
+    - host: teresa2x3.local
       http:
         paths:
           - pathType: Prefix
